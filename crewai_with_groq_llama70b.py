@@ -17,7 +17,7 @@ import os
 
 os.environ["OPENAI_API_BASE"] = 'https://api.groq.com/openai/v1'  #OpenAI Compatibilty of Groq with OpenAI
 os.environ["OPENAI_MODEL_NAME"] ='llama3-70b-8192'  # Adjust based on available model
-os.environ["OPENAI_API_KEY"] ='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'
+os.environ["OPENAI_API_KEY"] ='<YOUR API KEY from GROQ>'
 
 #model = Ollama(model = "llama3")
 
